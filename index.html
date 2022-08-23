@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <section id="full-background">
+            <header>
+                <h1>Minha Lista de Tarefas</h1>
+                <div id="funcionamento">
+                    <p>Clique duas vezes em um item para marcá-lo como completo</p>
+                </div>
+            </header>
+            <section id="input-background">
+                <section id="text-input">
+                    <input type="text" id="texto-tarefa" name="Tarefa">
+                </section>
+                <section id="botao-tarefa">
+                    <div><button id="criar-tarefa">Adicionar</button></div>
+                </section>
+            </section>
+            <section>
+                <ol id="lista-tarefas"></ol>
+            </section>
+            <footer>
+                <section id="background-buttons">
+                    <div class="organize"><button class="modelButtons smallButtons" id="remover-selecionado">☓</button></div>
+                    <div class="organize"><button class="modelButtons smallButtons" id="mover-cima">🠕</button></div>
+                    <div class="organize"><button class="modelButtons smallButtons" id="mover-baixo">🠗</button></div>
+                    <div class="organize"><button class="modelButtons" id="remover-finalizados">Limpar Completos</button></div>
+                    <div class="organize"><button class="modelButtons" id="apaga-tudo">Limpar Lista</button></div>
+                    <div class="organize"><button class="modelButtons" id="salvar-tarefas">Salvar Lista</button></div>
+                </section>
+            </footer>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

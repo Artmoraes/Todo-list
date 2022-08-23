@@ -1,0 +1,131 @@
+body {
+    background-color: #40AD40;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    font-weight: 700;
+}
+
+#funcionamento {
+    font-weight: 100;
+}
+
+main {
+    background-color: whitesmoke;
+    width: 900px;
+    height: 350px;
+    border-radius: 40px;
+    margin: auto;
+}
+
+#full-background {
+    /*Background onde fica o quadro inteiro do site com conteúdo*/
+    padding-top: 20px;
+    padding-left: 30px;
+    margin-top: 15%;
+}
+
+#input-background {
+    /*Background onde fica o input e button*/
+    display: block;
+    width: 450px;
+    height: 40px;
+}
+
+#text-input {
+    /*Bloco da caixa de texto*/
+    display: inline-block;
+    width: 250px;
+    height: 30px;
+}
+
+#texto-tarefa {
+    /*Caixa de texto(Input)*/
+    width: 250px;
+    height: 30px;
+}
+
+#botao-tarefa {
+    /*Bloco do botão de adicionar tarefa*/
+    display: inline-block;
+    width: 100px;
+}
+
+#criar-tarefa {
+    /*Botão de adicionar tarefa*/
+    background-color: #2A9AD0;
+    height: 30px;
+    width: 100px;
+    margin-left: 10px;
+    color: white;
+    display: block;
+    border-radius: 30px;
+    border: 1px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#criar-tarefa:hover {
+    opacity: 0.7;
+}
+
+#background-buttons {
+    display: block;
+    width: 605px;
+    height: 50px;
+    text-align: left;
+    padding: auto auto;
+    border-radius: 30px;
+    margin-top: 60px;
+}
+
+.organize {
+    display: block;
+}
+
+.modelButtons {
+    font-weight: 700;
+    height: 30px;
+    display: block;
+    float: left;
+    border: 1px;
+    color: whitesmoke;
+    border-radius: 30px;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.modelButtons:hover {
+    opacity: 0.7;
+}
+
+.smallButtons {
+    width: 40px;
+}
+
+#remover-selecionado {
+    background-color: #90191B;
+}
+
+#mover-cima,
+#mover-baixo {
+    font-size: 20px;
+    background-color: #FC7F00;
+}
+
+#remover-finalizados {
+    background-color: #2A9AD0;
+}
+
+#apaga-tudo {
+    background-color: #90191B;
+}
+
+#salvar-tarefas {
+    background-color: #40AD40;
+}
+
+.completed {
+    text-decoration: line-through;
+}
